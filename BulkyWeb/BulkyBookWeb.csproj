@@ -17,9 +17,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bulky.DataAccess\Bulky.DataAccess.csproj" />
-    <ProjectReference Include="..\Bulky.Models\Bulky.Models.csproj" />
-    <ProjectReference Include="..\Bulky.Utility\Bulky.Utility.csproj" />
+    <ProjectReference Include="..\Bulky.DataAccess\BulkyBook.DataAccess.csproj" />
+    <ProjectReference Include="..\Bulky.Models\BulkyBook.Models.csproj" />
+    <ProjectReference Include="..\Bulky.Utility\BulkyBook.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Customer\Data\" />
+    <Folder Include="Areas\Customer\Models\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
